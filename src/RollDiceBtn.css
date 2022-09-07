@@ -1,0 +1,31 @@
+.diceBtn {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+}
+
+.dieContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.diceBtn button {
+  align-self: center;
+  width: 15em;
+  padding: 1.5em;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  background-color: goldenrod;
+  margin-top: 3em;
+}
+
+.diceBtn button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.diceBtn button:disabled {
+  cursor: progress;
+}
